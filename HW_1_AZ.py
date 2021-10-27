@@ -75,5 +75,3 @@ print(a, b)
 Zemfira_ = 'Zemfira'
 n = '3'
 print ('Zemfira_'+ n)
-
-print('new print')
