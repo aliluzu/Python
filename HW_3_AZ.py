@@ -115,16 +115,16 @@ if currency_convertor:
         currency_result = target_currency_amount / usd_eur_rate
         print('target_currency_amount, eur_item, “=”, currency_result, usd_item')
     elif target_currency == 'uah':
-        currency_result = target_currency_amount / usd_uah_rate
+        currency_result = target_currency_amount * usd_uah_rate
         print('target_currency_amount, uah_item, “=”, currency_result, uah_item')
     elif target_currency == 'cht':
-        currency_result = target_currency_amount / usd_chf_rate
+        currency_result = target_currency_amount * usd_chf_rate
         print('target_currency_amount, cht_item, “=”, currency_result, cht_item')
     elif target_currency == 'rub':
-        currency_result = target_currency_amount / usd_rub_rate
+        currency_result = target_currency_amount * usd_rub_rate
         print('target_currency_amount, rub_item, “=”, currency_result, rub_item')
     elif target_currency == 'byn':
-        currency_result = target_currency_amount / usd_byn_rate
+        currency_result = target_currency_amount * usd_byn_rate
         print('target_currency_amount, byn_item, “=”, currency_result, byn_item')
     else:
         print('Unknow currency')
